@@ -51,13 +51,16 @@ echo
 #Download
 echo "Start downloading Google Chrome"
 
+path="$HOME/Downloads/googlechrome.dmg"
+echo "to $path"
+
 if [[ "${UNAME_MACHINE}" == "arm64" ]]
 then
     #apple sillicon
-    curl -OL# "$MAC_ARM_DMG"
+    curl -L# "$MAC_ARM_DMG" -o "$path"
 else
     #intel chip
-    curl -OL# "$MAC_INTEL_DMG"
+    curl -L# "$MAC_INTEL_DMG" -o "$path"
 fi
 
 echo "✅ Download of Google Chrome is complete!"
