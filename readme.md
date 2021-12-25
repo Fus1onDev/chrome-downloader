@@ -1,5 +1,7 @@
 # chrome-downloader
 
+[![GitHub license](https://img.shields.io/github/license/Luke-1220/chrome-downloader)](https://github.com/Luke-1220/chrome-downloader/blob/master/LICENSE)
+
 ![](ss.png)
 
 > Shell script to download Google Chrome without Safari
